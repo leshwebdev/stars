@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <title>Draw Stars</title>
+</head>
+
+<body>
+    <div class="wrapper flex column h-centered box-shadow">
+        <i>I'm Seeing Stars !</i>
+        <div class="bar flex column centered">
+            <div class="query flex centered">how many lines ?</div>
+            <div class="actions flex centered box-shadow">
+                <button onclick="changeGNUM('add')"><img src="./img/plus.png" alt=""></button>
+                <div id="curr-num"></div>
+                <button id="minus" onclick="changeGNUM('subtract')"><img src="./img/minus.png" alt=""></button>
+            </div>
+        </div>
+        <div class="container flex v-centered">
+            <div id="canvas" class="flex column h-centered"></div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
