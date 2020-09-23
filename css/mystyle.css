@@ -75,6 +75,7 @@ img {
   font-size: 3rem;
   width: 95%;
   margin: 20px;
+  overflow-y: hidden;
 }
 
 .line {
